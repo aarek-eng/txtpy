@@ -291,7 +291,7 @@ class Versions:
                 "about": "Mapping from the slots of version {} to version {}".format(
                     va, vb
                 ),
-                "encoder": "Text-Fabric textpy.compose.nodemaps",
+                "encoder": "Text-Fabric txtpy.compose.nodemaps",
                 "valueType": "int",
                 "edgeValues": True,
             }

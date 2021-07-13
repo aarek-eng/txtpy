@@ -1,15 +1,15 @@
 from setuptools import setup
 
 setup(
-    name="textpy",
+    name="txtpy",
     packages=[
-        "textpy",
-        "textpy.advanced",
-        "textpy.core",
-        "textpy.compose",
-        "textpy.convert",
-        "textpy.search",
-        "textpy.writing",
+        "txtpy",
+        "txtpy.advanced",
+        "txtpy.core",
+        "txtpy.compose",
+        "txtpy.convert",
+        "txtpy.search",
+        "txtpy.writing",
     ],
     install_requires=[
         "markdown",
@@ -25,7 +25,7 @@ setup(
     description="""Processor Text Fabric Data""",
     author="Dirk Roorda",
     author_email="dirk.roorda@dans.knaw.nl",
-    url="https://github.com/annotation/textpy",
+    url="https://github.com/annotation/txtpy",
     keywords=[
         "text",
         "linguistics",
@@ -70,6 +70,6 @@ setup(
     long_description="""\
 Tools to read text corpora with (linguistic) annotations
 and process them efficiently.
-More info on https://annotation.github.io/textpy/textpy
+More info on https://annotation.github.io/txtpy/txtpy
 """,
 )

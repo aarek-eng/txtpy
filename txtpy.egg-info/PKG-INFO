@@ -1,14 +1,14 @@
 Metadata-Version: 1.2
-Name: textpy
+Name: txtpy
 Version: 1.0.0
 Summary: Processor Text Fabric Data
-Home-page: https://github.com/annotation/textpy
+Home-page: https://github.com/annotation/txtpy
 Author: Dirk Roorda
 Author-email: dirk.roorda@dans.knaw.nl
 License: UNKNOWN
 Description: Tools to read text corpora with (linguistic) annotations
         and process them efficiently.
-        More info on https://annotation.github.io/textpy/textpy
+        More info on https://annotation.github.io/txtpy/txtpy
         
 Keywords: text,linguistics,database,graph,hebrew,bible,peshitta,quran,cuneiform,uruk,greek,syriac,akkadian,babylonian
 Platform: UNKNOWN

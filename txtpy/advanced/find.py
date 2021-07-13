@@ -103,7 +103,7 @@ Hint:
 def findAppClass(appName, appPath):
 
     appClass = None
-    moduleName = f"textpy.apps.{appName}.app"
+    moduleName = f"txtpy.apps.{appName}.app"
     filePath = f"{appPath}/app.py"
     if not os.path.exists(filePath):
         return None
@@ -127,7 +127,7 @@ def loadModule(moduleName, *args):
     (appName, appPath) = args[1:3]
     try:
         spec = util.spec_from_file_location(
-            f"textpy.apps.{appName}.{moduleName}", f"{appPath}/{moduleName}.py",
+            f"txtpy.apps.{appName}.{moduleName}", f"{appPath}/{moduleName}.py",
         )
         module = util.module_from_spec(spec)
         spec.loader.exec_module(module)

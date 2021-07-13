@@ -17,7 +17,7 @@ PICKLE_PROTOCOL = 4
 
 ORG = "annotation"
 
-REPO = "textpy"
+REPO = "txtpy"
 
 RELATIVE = "tf"
 

@@ -3,7 +3,7 @@
 import os
 from itertools import chain
 
-from textpy.core.helpers import specFromRangesLogical, specFromRanges, rangesFromSet
+from txtpy.core.helpers import specFromRangesLogical, specFromRanges, rangesFromSet
 
 ZWJ = "\u200d"  # zero width joiner
 
@@ -48,9 +48,9 @@ class Recorder:
 Cannot determine node types without a TF api.
 You have to call Recorder(`api`) instead of Recorder()
 where `api` is the result of
-    textpy.app.use(corpus)
+    txtpy.app.use(corpus)
     or
-    textpy.Fabric(locations, modules).load(features)
+    txtpy.Fabric(locations, modules).load(features)
 """
             )
             return None
@@ -109,9 +109,9 @@ where `api` is the result of
 Cannot determine node types without a TF api.
 You have to call Recorder(`api`) instead of Recorder()
 where `api` is the result of
-    textpy.app.use(corpus)
+    txtpy.app.use(corpus)
     or
-    textpy.Fabric(locations, modules).load(features)
+    txtpy.Fabric(locations, modules).load(features)
 """
             )
             return None

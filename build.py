@@ -8,9 +8,9 @@ from subprocess import run
 
 
 ORG = "annotation"
-REPO = "textpy"
-PKG = "textpy"
-PACKAGE = "textpy"
+REPO = "txtpy"
+PKG = "txtpy"
+PACKAGE = "txtpy"
 SCRIPT = "/Library/Frameworks/Python.framework/Versions/Current/bin/{PACKAGE}"
 
 DIST = "dist"
@@ -22,7 +22,7 @@ VERSION_CONFIG = dict(
         mask="version='{}'",
     ),
     parameters=dict(
-        file="textpy/parameters.py",
+        file="txtpy/parameters.py",
         re=re.compile(r"""\bVERSION\s*=\s*['"]([^'"]*)['"]"""),
         mask="VERSION = '{}'",
     ),
